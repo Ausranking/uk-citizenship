@@ -16,7 +16,7 @@
 }
 
 .navigation-menu {
-  display: none; /* Initially hide the menu */
+  // display: none; /* Initially hide the menu */
 }
 
 .navigation-menu.active {
@@ -59,7 +59,7 @@ header {
     }
 
     ul {
-      // display: flex;
+      display: flex;
       width: 100%;
       justify-content: center;
       @media screen and (max-width: 768px) {

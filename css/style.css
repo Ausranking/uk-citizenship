@@ -16,10 +16,6 @@
   margin-bottom: 5px;
 }
 
-.navigation-menu {
-  display: none; /* Initially hide the menu */
-}
-
 .navigation-menu.active {
   display: flex; /* Show the menu when active */
 }
@@ -61,6 +57,7 @@ header .navmenu .logo img {
   display: block;
 }
 header .navmenu ul {
+  display: flex;
   width: 100%;
   justify-content: center;
   padding-inline: 1rem;

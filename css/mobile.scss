@@ -1,13 +1,17 @@
 @media screen and (max-width: 768px) {
   .container {
-    max-width: auto;
-    margin-top: 1rem;
+    max-width: 100%;
+    margin-top: rem;
     margin: auto;
     ul {
       flex-direction: column;
     }
 
     .navmenu {
+      width: 100%;
+      margin: auto;
+      display: flex;
+      padding-inline: 1rem;
       flex-direction: column;
       align-items: flex-start;
       padding: 0;
@@ -19,7 +23,7 @@
       }
       form {
         padding: 0;
-        min-width: 100%;
+        width: 100%;
         #srchbar {
           min-width: 85%;
         }
@@ -45,6 +49,6 @@
     max-width: 100%;
   }
   .menu-icon {
-    // display: none;
+    display: none;
   }
 }
